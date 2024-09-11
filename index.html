@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./index.js"></script>
+    <title>Vue Tennis</title>
+</head>
+    
+<body>
+    <header>
+        <h1>VUE TENNIS</h1>
+    </header>
+    
+    <div class ="container">
+        <img src="" alt=""/>
+
+        <h3>USER SIGN UP / SIGN IN</h3>  
+           <!-- COORDINATOR SIGN UP / SIGN IN 
+            section that restricts users from creating this type of account keeps a logged database of
+            authorized names that are able to create accounts for tournament setup / round robin -->
+    
+    <form id="form"> 
+        <label>Name:</label> 
+        <input type = "text" name="name" id="new-name"/> <br></br>
+        <label>Stats:</label>
+        <input type = "text" name="stats" id="new-stats"/> <br></br>
+        <label for="">Style:</label>
+        <input type ="text" name="style" id="new-style"/> <br></br>
+        <label for="">Image:</label> 
+        <input type ="text" name="image" id="new-name"/>
+        <input type = "submit" value="Create!"/> 
+    </form>
+
+    <div id="profile">
+    <!-- adding our player information into this area for client to be able to view their player information
+     mouse over will create a border to show you are over the players info 
+     mouse out cancels the border -->
+    </div>
+
+<!-- Search bar: allows you to search for your name -->
+<!-- Searching for stats uses .filter and finds stats based off of the number that is put in -->
+
+<!--  user page 
+    page that brings you to your profile 
+    profile shows what events you are currently in 
+    stats, forehand or backhand playstyle 
+    calendar shows upcoming events for player 
+    add events to calendar 
+
+    coordinator page 
+    shows array of different players 
+    search area for players that pulls from an array --> 
+    <!-- <form action="">
+        round robin generator: randomizer 
+        allows permitted only users to go and add up to 30 slots to the event <br> </br>
+        randomizer takes the given submitted names and organizes courts by the <br> </br>
+        amount of players listed for the day. randomizer works by reading stats <br> </br>
+        of players and sorting by skill level if stat = 3.0 then pair with another <br> </br>
+        3.0. if two 3.0 then vs no greater than 4.0 stats player 
+    </form> -->
+    </div>
+
+    <div id="round-robin">
+
+    </div>
+    </body>
+</html>
+
+
+    <!-- stretch goals: 
+    1. create a profile page 
+    2. create code that goes and allows them to edit their profile 
+    in case the user spelled their name wrong or wishes to update their stats
+    3.  -->
+

@@ -1,0 +1,95 @@
+{
+  "Players": [
+    {
+      "id": "1",
+      "name": "Dre",
+      "stats": "3",
+      "style": "Forehand",
+      "image": "https://cdn.anime-planet.com/characters/primary/senri-chitose-1-272x382.webp?t=1658052590"
+    },
+    {
+      "id": "2",
+      "name": "Marcus",
+      "stats": "6",
+      "style": "Forehand",
+      "image": "https://cdn.anime-planet.com/characters/primary/shuuji-tanegashima-1-202x283.webp?t=1662814166"
+    },
+    {
+      "id": "3",
+      "name": "Pamela",
+      "stats": "5",
+      "style": "Forehand",
+      "image": "https://cdn.anime-planet.com/characters/primary/rika-dobashi-1-190x263.jpg?t=1625967333"
+    },
+    {
+      "id": "4",
+      "name": "Chuck",
+      "stats": "5",
+      "style": "Backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/takayuki-toudou-1-190x266.jpg?t=1625994949"
+    },
+    {
+      "id": "5",
+      "name": "Abby",
+      "stats": "5",
+      "style": "Backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/sumino-kiba-1-130x193.jpg?t=1625973132"
+    },
+    {
+      "id": "6",
+      "name": "Dave",
+      "stats": "4",
+      "style": "Backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/kuranosuke-shiraishi-1-190x266.jpg?t=1625993880"
+    },
+    {
+      "id": "7",
+      "name": "Jorge",
+      "stats": "5",
+      "style": "Backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/arai-baby-steps-1-190x285.jpg?t=1625991207"
+    },
+    {
+      "id": "9",
+      "name": "Ray",
+      "stats": "5",
+      "style": "Forehand",
+      "image": "https://cdn.anime-planet.com/characters/primary/ryou-shishido-1-190x266.jpg?t=1625993878"
+    },
+    {
+      "id": "10",
+      "name": "Roy",
+      "stats": "5",
+      "style": "Backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/genichirou-sanada-1-190x267.jpg?t=1625993878"
+    },
+    {
+      "id": "0ff4",
+      "name": "Dre",
+      "stats": "5",
+      "style": "forehand",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "b324",
+      "name": "takeshi",
+      "stats": "5",
+      "style": "backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/takeshi-momoshiro-1-130x186.jpg?t=1625966224"
+    },
+    {
+      "id": "50b4",
+      "name": "Charles",
+      "stats": "5",
+      "style": "forehand",
+      "image": "https://cdn.anime-planet.com/characters/primary/houou-byoudouin-1-285x399.webp?t=1658022318"
+    },
+    {
+      "id": "3f0f",
+      "name": "drew",
+      "stats": "5",
+      "style": "backhand",
+      "image": "https://cdn.anime-planet.com/characters/primary/akifumi-saionji-1-190x266.jpg?t=1626010143"
+    }
+  ]
+}

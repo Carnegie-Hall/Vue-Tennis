@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    border: black;
+    border-width: 1em;
+    font-size: 100px;
+    color: white;
+    font-style: italic;
+    font-weight: 550;
+    -webkit-text-stroke-width: 1px; /* controls the text's border in our css need webkit to function*/
+    -webkit-text-stroke-color: black; 
+    position: relative;
+    top: 40px;
+    background-color: #94fd31; 
+}
+
+body {
+background: linear-gradient(orange, pink);
+}
+
+h3 {
+    text-decoration: underline;
+/*    text-shadow: 1px 1px 2px rgb(255, 153, 0), 0 0 1em rgb(255, 0, 255), 0 0 0.2em rgb(255, 208, 0);;
+*/  text-shadow: 5px 5px #558abb;
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    background-color: #f5c8e1;
+    color: black;
+}
+
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
